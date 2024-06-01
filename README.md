@@ -1,41 +1,47 @@
 Final Project of JavaScript Course
-
-
 Description
-
-
-This is the final project of the JavaScript Course. In this project, NFT has been implemented using JavaScript.
+This is the final project of the JavaScript Course. In this project, NFTs have been implemented using JavaScript.
 
 Tasks Completed
 The following tasks have been implemented in this challenge:
 
-Create a variable that can hold a number of NFTs. What type of variable might this be?
-Create an object inside your mintNFT function that will hold the metadata for your NFTs. The metadata values will be passed to the function as parameters. When the NFT is ready, you will store it in the variable you created in Step 1
-Your listNFTs() function will print all of your NFTs metadata to the console (i.e. console.log("Name: " + someNFT.name))
-For good measure, getTotalSupply() should return the number of NFTs you have created.
+Create a variable to hold NFTs:
 
+We declared a variable that can store multiple NFTs. This is an array that will hold our NFT objects.
+Create an object inside the mintNFT function:
 
+The mintNFT function creates an object to hold the metadata for each NFT. The metadata values are passed to the function as parameters. Once the NFT is created, it is stored in the variable created in Step 1.
+Print all NFTs' metadata:
+
+The listNFTs function prints the metadata of all the NFTs to the console. This includes the name, skin color, hair color, and shoe type of each NFT.
+Return the number of NFTs created:
+
+The getTotalSupply function returns the total number of NFTs we have created.
 How to Run the Project
 To run the project, follow the instructions below:
 
-Clone the repository.
+Clone the repository:
 
-Open Remix IDE and create a new file.
+Open your terminal and run the following command to clone the repository:
+sh
+Copy code
+git clone <link of repo>
+Set up the project:
 
-Copy and paste the code of the smart contract into the file.
+Ensure that Node.js is installed on your machine. If not, download and install it from nodejs.org.
+Run the code:
 
-Compile the smart contract using the Solidity compiler.
+Navigate to the project directory in your terminal.
+Open your JavaScript file where the NFT code is implemented. You can use any text editor or an IDE like VS Code.
+Understand the project structure:
 
-Deploy the smart contract on a local blockchain or on a test net.
+The JavaScript file contains the following key functions:
+mintNFT: Creates and stores a new NFT.
+listNFTs: Prints all the NFTs and their metadata.
+getTotalSupply: Prints the total number of NFTs created.
+Execute the JavaScript file:
 
-Test the smart contract by interacting with it using Remix IDE or other compatible tools.
-
-Clone the repository to your local machine by running the following command:
-
- $git clone <link of repo>
-Make sure Node.js is installed.
-
-In the project directory, open a terminal and run the code.
-
-Author
-Ritik kumar
+You can run the JavaScript code using Node.js by executing the following command in your terminal:
+sh
+Copy code
+node NFTs.js
