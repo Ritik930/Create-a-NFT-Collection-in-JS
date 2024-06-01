@@ -23,13 +23,10 @@ To run the project, follow the instructions below:
 
    3. Navigate to the project directory: Open your terminal and navigate to the directory where you cloned the repository.
    4. Open the project file:Open your JavaScript file where the NFT code is implemented. You can use any text editor or an IDE like VS Code.
-   5. Run the JavaScript code:
+   5. Run the JavaScript code:You can execute the JavaScript code using Node.js by running the following command in your terminal:
+      sh
 
-You can execute the JavaScript code using Node.js by running the following command in your terminal:
-sh
-
-node NFTs.js
-Verify the output:
+      node NFTs.js
 
 The console should display the details of the minted NFTs and the total supply of NFTs.
 1. Clone the repository to your local machine by running the following command:
